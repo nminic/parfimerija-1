@@ -143,20 +143,7 @@ if (filter_input(INPUT_GET, "action") == "IsprazniKorpu") {
 	</div>
 </div>
 
-<!--- Jumbotron 
-<div class="container-fluid">
-	<div class="jumbotron">
-		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-			<p class="lead">Neki tekst tu ide</p>
-		</div>
-		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-			<a href="#">
-				<button type="button" class="btn btn-outline-secondary btn-lg">Dugmence</button>
-			</a>
-		</div>
-	</div>
-</div>
--->
+
 
 <!--- Welcome Section -->
 <div class="container-fluid padding">
