@@ -2,12 +2,6 @@
 session_start();
 
 
-if (filter_input(INPUT_GET, "action") == "IsprazniKorpu") {
-    foreach ($_SESSION['korpa'] as $key => $artikal) {
-        unset($_SESSION['korpa'][$key]);
-    }
-}
-
 $error = "";
 
 if (isset($_POST['submit'])) {

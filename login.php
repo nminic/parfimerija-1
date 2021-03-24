@@ -2,11 +2,6 @@
 session_start();
 include './connectionString.php';
 
-if (filter_input(INPUT_GET, "action") == "IsprazniKorpu") {
-    foreach ($_SESSION['korpa'] as $key => $artikal) {
-        unset($_SESSION['korpa'][$key]);
-    }
-}
 
 $error = "";
 
